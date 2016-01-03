@@ -1,0 +1,2 @@
+trans('messages.key');
+// こんにちは！

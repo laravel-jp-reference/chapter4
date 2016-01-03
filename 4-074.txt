@@ -1,0 +1,13 @@
+public function boot(DispatcherContract $events)
+{
+    parent::boot($events); // <---(1)
+
+    //
+    \DB::listen(function ($query, $bindings, $time, $database) { // <---(2)
+        \Log::info($query . ' ' . json_encode($bindings));
+    });
+
+    \Event::listen('kernel.handled', function ($request, $response) { // <---(3)
+        \Log::info('kernel.handled');
+    }, 1);
+}

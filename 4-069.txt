@@ -1,0 +1,1 @@
+event('foo_event', ['value1', 'value2']);

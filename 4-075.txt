@@ -1,0 +1,5 @@
+    protected $listen = [
+        \App\Events\Foo::class => [
+            \App\Listeners\FooListener::class,
+        ],
+    ];

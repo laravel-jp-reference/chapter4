@@ -1,0 +1,5 @@
+// 有効期間を分で指定（1分間）
+\Cache::put('key', 'value', 1);
+
+// 有効期間をCarbonクラスで指定（1分後まで有効）
+\Cache::put('key', 'value', Carbon::now()->addMinute());

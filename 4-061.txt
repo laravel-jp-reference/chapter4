@@ -1,0 +1,3 @@
+\Event::listen('illuminate.query', function ($query, $bindings, $time, $database) {
+    \Log::info($query . ' ' . json_encode($bindings));
+});

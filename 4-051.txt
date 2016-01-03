@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<div class="container">
+  <div class="content">
+    <div class="title">ページがありません。</div>
+  </div>
+</div>
+</body>
+</html>

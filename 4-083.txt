@@ -1,0 +1,26 @@
+<?php
+namespace App\Listeners;
+
+use App\Events\Foo;
+use Illuminate\Events\Dispatcher;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+
+class AppEventSubscriber
+{
+    public function subscribe(Dispatcher $events) // <---(1)
+    {
+        $events->listen('App\Events\Foo', __CLASS__ . '@onFoo');
+        $events->listen('kernel.handled', __CLASS__ . '@onKernelHandled');
+    }
+
+    public function onFoo(Foo $event) // <---(2)
+    {
+        \Log::info(__CLASS__ . ':' . \Event::firing());
+    }
+
+    public function onKernelHandled($request, $response) <---(3)
+    {
+        \Log::info(__CLASS__ . ':' . \Event::firing());
+    }
+}

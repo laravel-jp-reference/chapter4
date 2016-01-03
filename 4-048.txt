@@ -1,0 +1,4 @@
+    protected $dontReport = [
+        HttpException::class,
+        ModelNotFoundException::class,
+    ];

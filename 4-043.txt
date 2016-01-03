@@ -1,0 +1,13 @@
+\Cache::put('key', 1, 10);
+
+\Cache::increment('key');
+$value = \Cache::get('key'); // $value = 2
+
+\Cache::increment('key', 10);
+$value = \Cache::get('key'); // $value = 12
+
+\Cache::decrement('key');
+$value = \Cache::get('key'); // $value = 11
+
+\Cache::decrement('key', 10);
+$value = \Cache::get('key'); // $value = 1

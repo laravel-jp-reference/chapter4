@@ -1,0 +1,7 @@
+    public function index()
+    {
+        $paginator = \App\User::orderBy('id')->paginate(2);
+        $paginator->setPath('foo/bar');
+
+        return view('user.index', ['users' => $paginator]);
+    }

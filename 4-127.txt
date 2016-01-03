@@ -1,0 +1,4 @@
+    public function index()
+    {
+        return \App\User::orderBy('id')->paginate(2);
+    }

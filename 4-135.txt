@@ -1,0 +1,12 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        $name = $request->session()->get('name', 'default'); // <---(1)
+        $name = $request->session()->get('name', function () { // <---(2)
+            return 'default_closure';
+        );
+
+        $name = $request->session()->get('level1.level2', 'default'); // <---(3)
+        // (略)
+    }

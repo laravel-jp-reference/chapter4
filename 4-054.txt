@@ -1,0 +1,5 @@
+return [
+    (略)
+    'log_max_files' => 30,
+    (略)
+];

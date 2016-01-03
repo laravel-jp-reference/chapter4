@@ -1,0 +1,9 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        $request->session()->forget('name'); // <---(1)
+
+        $request->session()->flush(); // <---(2)
+        // (略)
+    }

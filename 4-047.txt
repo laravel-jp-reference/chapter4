@@ -1,0 +1,4 @@
+    public function report(Exception $e)
+    {
+        return parent::report($e);
+    }

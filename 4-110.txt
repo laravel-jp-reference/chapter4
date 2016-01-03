@@ -1,0 +1,17 @@
+[2015-06-07 11:53:08] testing.DEBUG: Message-ID:
+                                       <751d65e12ba9be7d3aa3f423174aca16@swift.generated>
+Date: Sun, 07 Jun 2015 11:53:08 +0000
+Subject: =?utf-8?Q?=E3=81=8A=E7=9F=A5=E3=82=89=E3=81=9B?=
+From: =?utf-8?Q?=E7=AE=A1=E7=90=86=E8=80=85?= <admin@example.com>
+To: =?utf-8?Q?=E5=A4=AA=E9=83=8E?= <foo@example.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+ boundary="_=_swift_v4_1433677988_6cfe2baa343c50611f3f6b4380976ed5_=_"
+
+こんにちは！太郎さん。
+
+Content-Type: image/png; name=laravel-logo.png
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=laravel-logo.png
+
+（略）

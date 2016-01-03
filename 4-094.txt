@@ -1,0 +1,5 @@
+trans('messages.nothing');
+// messages.nothing
+
+trans('nothing');
+// nothing

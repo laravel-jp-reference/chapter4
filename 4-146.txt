@@ -1,0 +1,13 @@
+use Illuminate\Http\Request;
+
+    public function rememberAll(Request $request)
+    {
+        $request->session()->reflash();
+        // (略)
+    }
+
+    public function rememberName(Request $request)
+    {
+        $request->session()->keep('name');
+        // (略)
+    }

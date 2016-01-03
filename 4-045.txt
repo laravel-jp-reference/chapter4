@@ -1,0 +1,8 @@
+// キャッシュを取得
+$value = \Cache::tags('tag1', 'tag2')->get('key');
+
+// キャッシュの値を加算
+\Cache::tags('tag1', 'tag2')->increment('key');
+
+// キャッシュを削除
+\Cache::tags('tag1', 'tag2')->forget('key');

@@ -1,0 +1,5 @@
+$ php artisan session:table
+Migration created successfully!
+
+$ php artisan migrate
+Migrated: 2015_06_16_062902_create_session_table

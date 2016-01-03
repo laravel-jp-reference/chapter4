@@ -1,0 +1,9 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        if ($request->session()->has('name')) {
+            // nameキーが存在すれば実行
+        }
+        // (略)
+    }

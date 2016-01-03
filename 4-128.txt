@@ -1,0 +1,22 @@
+{
+    "total":3,
+    "per_page":2,
+    "current_page":1,
+    "last_page":2,
+    "next_page_url":"http:\/\/localhost\/?page=2",
+    "prev_page_url":null,
+    "from":1,
+    "to":2,
+    "data":[
+        {
+            "id":1,
+            "name":"name1"
+            (略)
+        },
+        {
+            "id":2,
+            "name":"name2"
+            (略)
+        },
+    ]
+}

@@ -1,0 +1,4 @@
+'redis' => [
+    'driver' => 'redis',
+    'connection' => 'default',
+],

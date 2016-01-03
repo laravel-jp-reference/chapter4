@@ -1,0 +1,12 @@
+<?php
+namespace App\Listeners;
+
+use App\Events\Foo;
+
+class FooListener
+{
+    public function handle(Foo $event)
+    {
+        \Log::info(\Event::firing() . ' name=' . $event->getUser()->name);
+    }
+}

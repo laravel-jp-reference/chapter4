@@ -1,0 +1,9 @@
+\Event::listen('kernel.handled', function ($request, $response) {
+    \Log::info('kernel.handled:1');
+}, 1);
+\Event::listen('kernel.handled', function ($request, $response) {
+    \Log::info('kernel.handled:3');
+}, 3);
+\Event::listen('kernel.handled', function ($request, $response) {
+    \Log::info('kernel.handled:2');
+}, 2);

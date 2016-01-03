@@ -1,0 +1,1 @@
+{!! $users->fragment('foo')->render() !!}

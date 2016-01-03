@@ -1,0 +1,5 @@
+    public function index()
+    {
+        session(['name' => 'foo']);
+        // (略)
+    }

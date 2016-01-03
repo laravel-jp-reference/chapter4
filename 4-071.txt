@@ -1,0 +1,1 @@
+[2015-05-17 05:55:14] local.INFO: foo_event ["value1","value2"]

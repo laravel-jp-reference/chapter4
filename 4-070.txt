@@ -1,0 +1,3 @@
+\Event::listen('foo_event', function ($payload1, $payload2) {
+    \Log::info('foo_event', [$payload1, $payload2]);
+});

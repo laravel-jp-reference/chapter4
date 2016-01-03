@@ -1,0 +1,6 @@
+// ログインユーザインスタンスでログイン
+$user = \App\User::find(1);
+\Auth::login($user);
+
+// IDでログイン
+\Auth::loginUsingId(1);

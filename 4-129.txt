@@ -1,0 +1,39 @@
+<?php
+namespace App\Http\Controllers;
+
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
+
+class CustomPaginationController extends Controller
+{
+    public function index()
+    {
+        $array = [
+            (object)['name' => 'foo'],
+            (object)['name' => 'bar'],
+            (object)['name' => 'baz'],
+        ];
+
+        $perPage = 2;
+
+        // ページ番号
+        $page = max(0, Paginator::resolveCurrentPage() - 1); // <---(1)
+
+        // ページ内の要素を取得
+        $sliced = array_slice($array, $page * $perPage, $perPage); // <---(2)
+
+        // ページネータインスタンス生成
+        $paginator = new LengthAwarePaginator( // <---(3)
+            $sliced,
+            count($array),
+            $perPage,
+            null,
+            [
+                'page' => $page,
+                'path' => Paginator::resolveCurrentPath(),
+            ]
+        );
+
+        return view('user.index', ['users' => $paginator]);
+    }
+}

@@ -1,0 +1,7 @@
+$credentials = [
+  'email' => $email,
+  'password' => $password,
+];
+if (\Auth::attempt($credentials, false, false)) {
+  // ログイン可能（ログイン処理は行われていない）
+}

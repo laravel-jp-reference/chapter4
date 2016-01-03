@@ -1,0 +1,13 @@
+<?php
+namespace App\Https\Controllers;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Contracts\Auth\Authenticatable;
+
+class ProfileController extends Controller
+{
+    public function profile(Authenticatable $user)
+    {
+        // $user がログインユーザインスタンス
+    }
+}

@@ -1,0 +1,7 @@
+$credentials = [
+  'email' => $email,
+  'password' => $password,
+];
+if (\Auth::attempt($credentials, true)) {
+  // ログイン成功時処理
+}

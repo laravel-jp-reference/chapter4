@@ -1,0 +1,9 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        $name = $request->session()->get('name'); // セッション値取得
+        $name = session('name'); // セッション値取得
+        $name = \Session::get('name'); // セッション値取得
+        // (略)
+    }

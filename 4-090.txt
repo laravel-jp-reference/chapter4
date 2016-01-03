@@ -1,0 +1,6 @@
+return [
+(略)
+    'locale' => 'ja',
+    'fallback_locale' => 'en',
+(略)
+];

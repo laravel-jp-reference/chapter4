@@ -1,0 +1,5 @@
+return [
+    // (略)
+    'from' => ['address' => 'admin@example.com', 'name' => '管理者'],
+    // (略)
+];

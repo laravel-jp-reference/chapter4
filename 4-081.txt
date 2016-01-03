@@ -1,0 +1,10 @@
+$user = \App\User::find(1); // $user->name = 'Junko'
+
+$event = new \App\Events\Foo($user);
+
+\Event::fire($event);
+// もしくは
+event($event);
+
+// イベントクラスの生成と一行で実行
+event(new \App\Events\Foo($user));

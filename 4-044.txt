@@ -1,0 +1,5 @@
+// 複数のタグを引数で指定
+\Cache::tags('tag1', 'tag2')->put('key', 1, 10);
+
+// 複数のタグを配列で指定
+\Cache::tags(['tag1', 'tag2'])->put('key', 1, 10);

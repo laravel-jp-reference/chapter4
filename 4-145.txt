@@ -1,0 +1,7 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        $request->session()->flash('key', 'value');
+        // (略)
+    }

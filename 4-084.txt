@@ -1,0 +1,11 @@
+    public function boot(\Illuminate\Contracts\Events\Dispatcher $events)
+    {
+        parent::boot($events);
+
+        // サブスクライバインスタンスを、Event::subscribeメソッドで登録
+        $subscriber = new \App\Listeners\AppEventSubscriber();
+        \Event::subscribe($subscriber);
+
+        // もしくはサブスクライバクラス名を指定しても良い
+        \Event::subscribe(\App\Listeners\AppEventSubscriber::class);
+    }

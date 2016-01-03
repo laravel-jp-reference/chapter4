@@ -1,0 +1,6 @@
+    public function index()
+    {
+        $paginator = DB::table('users')->orderBy('id')->paginate(2);
+        return view('user.index', ['users' => $paginator]);
+    }
+

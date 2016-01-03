@@ -1,0 +1,1 @@
+\Event::fire('foo_event', ['value1', 'value2']);

@@ -1,0 +1,17 @@
+[2015-06-07 10:58:39] testing.DEBUG: Message-ID:
+                                       <4a3161b1d0f5715b2c1e037ccf12ec1c@swift.generated>
+Date: Sun, 07 Jun 2015 10:58:39 +0000
+Subject: =?utf-8?Q?=E3=81=8A=E7=9F=A5=E3=82=89=E3=81=9B?=
+From: =?utf-8?Q?=E7=AE=A1=E7=90=86=E8=80=85?= <admin@example.com>
+To: =?utf-8?Q?=E5=A4=AA=E9=83=8E?= <foo@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1433674719_1253f9e63971ec758154c3a95d6cdfbd_=_"
+
+
+
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+こんにちは！

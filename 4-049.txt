@@ -1,0 +1,8 @@
+    public function report(Exception $e)
+    {
+        if ($e instanceof \App\Exceptions\AppException) {
+            // エラー通知処理
+        }
+
+        return parent::report($e);
+    }

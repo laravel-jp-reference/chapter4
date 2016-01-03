@@ -1,0 +1,2 @@
+$ cd /path/to/laravel_application
+$ composer require predis/predis ~1.0

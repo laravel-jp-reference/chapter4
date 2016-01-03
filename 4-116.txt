@@ -1,0 +1,6 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587
+MAIL_USERNAME=xxxxxxxxxxxxx
+MAIL_PASSWORD=xxxxxxxxxxxxx
+MAIL_ENCRYPTION=tls

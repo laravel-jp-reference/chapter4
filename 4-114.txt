@@ -1,0 +1,7 @@
+use Illuminate\Mail\Message;
+
+$file = __DIR__ . '/laravel-logo.png';
+\Mail::send('emails.inline', ['file' => $file], function (Message $message) {
+    $message->to('foo@example.com', '太郎')
+        ->subject('お知らせ');
+});

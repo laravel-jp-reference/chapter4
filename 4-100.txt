@@ -1,0 +1,10 @@
+    public function boot()
+    {
+        \Swift::init(function () {
+            \Swift_DependencyContainer::getInstance()
+                ->register('mime.qpheaderencoder')
+                ->asAliasOf('mime.base64headerencoder');
+
+            \Swift_Preferences::getInstance()->setCharset('ISO-2022-JP');
+        });
+    }

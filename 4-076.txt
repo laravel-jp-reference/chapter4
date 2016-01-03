@@ -1,0 +1,2 @@
+$ php artisan event:generate
+Events and handlers generated successfully!

@@ -1,0 +1,3 @@
+$value = \Cache::remember('key', 10, function () {
+    return 'default';
+});

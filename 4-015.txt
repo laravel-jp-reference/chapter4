@@ -1,0 +1,7 @@
+if (\Auth::once(['email' => $email, 'password' => $password])) { // <---(1)
+  // ログイン後処理
+}
+
+if (\Auth::onceUsingId(1)) { // <---(2)
+  // ログイン後処理
+}

@@ -1,0 +1,7 @@
+use Illuminate\Http\Request;
+
+    public function index(Request $request)
+    {
+        $request->session()->push('key', 'value1');
+        $request->session()->push('key', 'value2');
+    }

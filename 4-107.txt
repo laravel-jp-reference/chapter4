@@ -1,0 +1,6 @@
+use Illuminate\Mail\Message;
+
+\Mail::raw('こんにちは！', function (Message $message) {
+    $message->to('foo@example.com', '太郎')
+        ->subject('お知らせ');
+});

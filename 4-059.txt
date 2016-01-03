@@ -1,0 +1,3 @@
+$monolog = \Log::getMonolog();
+$monolog->pushProcessor(new \Monolog\Processor\MemoryUsageProcessor());
+\Log::debug('message');

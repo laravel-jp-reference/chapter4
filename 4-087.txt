@@ -1,0 +1,5 @@
+<?php
+return [
+    'key' => 'Hello!',
+    'key_with_parameter' => 'My name is :name.'
+];

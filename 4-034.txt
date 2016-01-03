@@ -1,0 +1,5 @@
+$value = \Cache::get('key', 'default');
+
+$value = \Cache::get('key', function () {
+    return 'default';
+});

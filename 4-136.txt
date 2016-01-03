@@ -1,0 +1,11 @@
+    public function index()
+    {
+        $name = session('name', 'default');
+        $name = session('name', function () {
+            return 'default_closure';
+        );
+        // (略)
+
+        // Illuminate\Session\Storeクラスのインスタンスを取得してgetメソッドを実行
+        $name = session()->get('name', 'default');
+    }

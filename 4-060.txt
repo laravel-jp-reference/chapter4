@@ -1,0 +1,1 @@
+[2015-05-10 06:51:39] local.DEBUG: message  {"memory_usage":"2.75 MB"}

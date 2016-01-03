@@ -1,0 +1,9 @@
+    protected $listen = [
+        'foo' => [
+            'FooListener',
+        ],
+        'bar' => [
+            'BarHandler',
+            'HogeHandler@action',
+        ],
+    ]

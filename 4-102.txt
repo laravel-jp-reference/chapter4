@@ -1,0 +1,11 @@
+[2015-06-07 10:30:01] testing.DEBUG: Message-ID:
+                                       <96f8e2e0e4942de2a0a2d8c4cfc5e05d@swift.generated>
+Date: Sun, 07 Jun 2015 10:30:01 +0000
+Subject: =?ISO-2022-JP?B?GyRCJCpDTiRpJDsbKEI=?=
+From: =?ISO-2022-JP?B?GyRCNElNfTxUGyhC?= <admin@example.com>
+To: =?ISO-2022-JP?B?GyRCQkBPOhsoQg==?= <foo@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+ESC$B$3$s$K$A$O!*B@O:$5$s!#ESC(B

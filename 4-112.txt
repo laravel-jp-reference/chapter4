@@ -1,0 +1,2 @@
+こんにちは！
+<img src="<?php echo $message->embed($file); ?>">

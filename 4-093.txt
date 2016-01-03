@@ -1,0 +1,2 @@
+trans('messages.key_with_parameter', ['name' => '太郎']);
+// 私の名前は、太郎です。

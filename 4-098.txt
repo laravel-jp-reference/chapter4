@@ -1,0 +1,6 @@
+use Illuminate\Mail\Message;
+
+\Mail::send('emails.hello', ['name' => '太郎'], function (Message $message) {
+    $message->to('foo@example.com', '太郎')
+        ->subject('お知らせ');
+});
